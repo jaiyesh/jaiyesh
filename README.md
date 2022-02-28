@@ -1,4 +1,4 @@
-<h1 align="center">Hey How's it going Everybody 👋, I'm Jaiyesh Chahar</h1>
+<h1 align="center">Hey, How's it going Everybody 👋, I'm Jaiyesh Chahar</h1>
 <h3 align="center">Energy Data Scientist | Youtuber | Physics Phillic</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jaiyesh&label=Profile%20views&color=0e75b6&style=flat" alt="jaiyesh" /> </p>
