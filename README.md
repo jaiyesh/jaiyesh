@@ -1,17 +1,17 @@
 <h1 align="center">Hey, How's it going Everybody 👋, I'm Jaiyesh Chahar</h1>
-<h3 align="center">Energy Data Scientist | Youtuber | Physics Phillic</h3>
+<h3 align="center">AI Engineer | Youtuber | Physics Phillic</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jaiyesh&label=Profile%20views&color=0e75b6&style=flat" alt="jaiyesh" /> </p>
 
-- 🔭 I’m currently working on **Reservoir ds tool**
+- 🔭 I’m currently working on **LLM Wrapper for all available LLMs**
 
-- 🌱 I’m currently learning **MLops, AWS, Cloud**
+- 🌱 I’m currently learning **Devops,LLMops**
 
 - 👨‍💻 All of my oil and gas Data Analytics projects are available at [https://github.com/jaiyesh/Gold-from-Jurrasic](https://github.com/jaiyesh/Gold-from-Jurrasic)
 
 - 👨‍💻 My Youtube channel notes and guest lecture notes are available at: [https://github.com/jaiyesh/Petroleum-Data-Analytics-and-Machine-Learning](https://github.com/jaiyesh/Petroleum-Data-Analytics-and-Machine-Learning)
 
-- 💬 Ask me about **Oil and Gas, Petroleum Engineering Automation, Data Science**
+- 💬 Ask me about **AI, ML, LLMs, Data Science**
 
 - 📫 How to reach me **jaiyesh0002@gmail.com**
 
