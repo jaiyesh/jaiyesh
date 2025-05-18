@@ -3,9 +3,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jaiyesh&label=Profile%20views&color=0e75b6&style=flat" alt="jaiyesh" /> </p>
 
-- 🔭 I’m currently working on **LLM Wrapper for all available LLMs**
+- 🔭 I’m currently **Building Agentic Applications using Langgraph,crewai and other frameworks**
 
 - 🌱 I’m currently learning **Devops,LLMops**
+
+- 👨‍💻 DRILLGPT:AI-Driven Drilling Optimization tool  available at [https://github.com/jaiyesh/DrillGPT](https://github.com/jaiyesh/DrillGPT)
 
 - 👨‍💻 All of my oil and gas Data Analytics projects are available at [https://github.com/jaiyesh/Gold-from-Jurrasic](https://github.com/jaiyesh/Gold-from-Jurrasic)
 
