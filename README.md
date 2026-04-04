@@ -203,16 +203,28 @@ Built the habit early. Still doing it.
 
 <img height="175" src="https://github-readme-stats.vercel.app/api?username=jaiyesh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=FFFFFF&include_all_commits=true&count_private=true" />
 &nbsp;
-<img height="175" src="https://github-readme-streak-stats.herokuapp.com/?user=jaiyesh&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=7C3AED&currStreakLabel=00D9FF" />
+<img height="175" src="https://streak-stats.demolab.com?user=jaiyesh&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=7C3AED&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=888888" />
 
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaiyesh&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaiyesh&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&cache_seconds=1800" />
+</div>
+
+**📅 Commit Activity**
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=jaiyesh&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=7C3AED&point=00D9FF&area=true&area_color=7C3AED" />
 </div>
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=jaiyesh&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=6" />
+
+| Period | Commits |
+|--------|---------|
+| 🗓️ Last Week | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.deno.dev%2Fjaiyesh.json%3Ffrom%3D2026-03-28%26to%3D2026-04-04&query=%24.total&label=commits&color=00D9FF&style=flat-square&logo=github) |
+| 📅 Last Month | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.deno.dev%2Fjaiyesh.json%3Ffrom%3D2026-03-01%26to%3D2026-04-04&query=%24.total&label=commits&color=7C3AED&style=flat-square&logo=github) |
+| 📆 Last Year | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.deno.dev%2Fjaiyesh.json%3Ffrom%3D2025-04-04%26to%3D2026-04-04&query=%24.total&label=commits&color=00FF88&style=flat-square&logo=github) |
+
 </div>
 
 ---
