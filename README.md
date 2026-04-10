@@ -17,17 +17,17 @@
 
 ---
 
-### 🧠 4+ Years of Building AI/ML — The Real Arc
+### 🧠 4+ Years of Building AI/ML - The Real Arc
 
 I didn't start as an AI engineer. I earned it, one production system at a time.
 
-**Physics + Data first.** M.Tech from IIT (ISM) Dhanbad, petroleum engineering with a minor in ML. My first job was building physics-assisted ML models that worked *alongside* reservoir simulation — production forecasting, EOR screening, history matching using sequential deep learning. Domain knowledge baked in from day one. That work got published in the *Journal of Petroleum Science and Engineering*.
+**Physics + Data first.** M.Tech from IIT (ISM) Dhanbad, petroleum engineering with a minor in ML. My first job was building physics-assisted ML models that worked *alongside* reservoir simulation - production forecasting, EOR screening, history matching using sequential deep learning. Domain knowledge baked in from day one. That work got published in the *Journal of Petroleum Science and Engineering*.
 
-**Then real engineering kicked in.** At Siemens (3+ years), I stopped working in notebooks and started shipping systems. Automotive anomaly detection processing **10TB+ of image data per day** with under 5-second latency, built on NVIDIA Triton, MQTT, and concurrent inference pipelines. Smart city drone vision with scalable DL service templates deployed across 10+ use case owners. Dielectric fluid leakage detection on time-series. Satellite imagery segmentation for building boundary analysis. Every project meant understanding a new domain, building the ML, writing the backend service, hooking into enterprise infra, and keeping it running. I also mentored junior developers through the notebook-to-production transition — because I had made that journey myself.
+**Then real engineering kicked in.** At Siemens (3+ years), I stopped working in notebooks and started shipping systems. Automotive anomaly detection processing **10TB+ of image data per day** with under 5-second latency, built on NVIDIA Triton, MQTT, and concurrent inference pipelines. Smart city drone vision with scalable DL service templates deployed across 10+ use case owners. Dielectric fluid leakage detection on time-series. Satellite imagery segmentation for building boundary analysis. Every project meant understanding a new domain, building the ML, writing the backend service, hooking into enterprise infra, and keeping it running. I also mentored junior developers through the notebook-to-production transition - because I had made that journey myself.
 
-**GenAI arrived and I was already production-ready.** RAG pipelines, LLM-powered APIs, Azure OpenAI integrations, LangGraph agents. Not a newcomer — someone who already knew how systems actually run. Picked up patents along the way: Federated Auto Vision for automotive defect detection, data encryption systems.
+**GenAI arrived and I was already production-ready.** RAG pipelines, LLM-powered APIs, Azure OpenAI integrations, LangGraph agents. Not a newcomer - someone who already knew how systems actually run. Picked up patents along the way: Federated Auto Vision for automotive defect detection, data encryption systems.
 
-**Now at Zensar as ML Lead**, running a cross-functional team delivering an enterprise CV platform for weld quality control on H100 GPUs. And on the side — I'm building **[InterviewValley.com](https://interviewvalley.com)** entirely solo. Full voice AI pipeline (STT → LLM → TTS), FastAPI backend, Next.js frontend, MongoDB, Docker, Capacitor mobile app. AI coding tools closed whatever frontend gap remained. From idea to shipped product, alone.
+**Now at Zensar as ML Lead**, running a cross-functional team delivering an enterprise CV platform for weld quality control on H100 GPUs. And on the side - I'm building **[InterviewValley.com](https://interviewvalley.com)** entirely solo. Full voice AI pipeline (STT → LLM → TTS), FastAPI backend, Next.js frontend, MongoDB, Docker, Capacitor mobile app. AI coding tools closed whatever frontend gap remained. From idea to shipped product, alone.
 
 <div align="center">
 
@@ -43,7 +43,7 @@ I didn't start as an AI engineer. I earned it, one production system at a time.
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  ZENSAR  |  Weld Quality Control AI Platform  (Current — ML Lead)
+  ZENSAR  |  Weld Quality Control AI Platform  (Current - ML Lead)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   EfficientNet-B0 + Vision Transformer │ H100 GPU with MIG partitioning
   Real-time feedback loop → retraining pipeline
@@ -147,23 +147,23 @@ I didn't start as an AI engineer. I earned it, one production system at a time.
 
 | Project | What it does | Stack |
 |---------|-------------|-------|
-| 🎙️ **[InterviewValley](https://interviewvalley.com)** | AI mock interview platform — real-time voice AI, JD/resume-aware question generation, guardrails, mobile app | FastAPI · Next.js · Deepgram · ElevenLabs · MongoDB · Capacitor |
+| 🎙️ **[InterviewValley](https://interviewvalley.com)** | AI mock interview platform - real-time voice AI, JD/resume-aware question generation, guardrails, mobile app | FastAPI · Next.js · Deepgram · ElevenLabs · MongoDB · Capacitor |
 | 🔩 **Weld QC AI Platform** *(Zensar)* | Enterprise weld defect detection with live feedback loop and retraining pipeline | EfficientNet · ViT · H100 · React 19 · FastAPI |
 | 🚗 **Automotive Anomaly Detection** *(Siemens)* | 10TB+/day image pipeline, <5s latency, multi-use-case DL inference | NVIDIA Triton · MQTT · Postgres · YOLO · PyTorch |
 | 🏙️ **Smart City Drone Vision** *(Siemens)* | Scalable DL service template, tiny object detection, environment compliance | SAHI · FasterRCNN · RabbitMQ · Docker |
-| 🤖 **[DrillGPT](https://github.com/jaiyesh/DrillGPT)** | LangGraph agent for drilling optimization — ROP prediction, bit failure, automated Word report generation | LangGraph · scikit-learn · OpenAI |
-| 🗂️ **Jira Copilot** | Agentic standup bot — syncs with Jira, collects team updates, auto-updates tickets | FastAPI · ChromaDB · RAG · Nginx |
-| 🛢️ **Production Forecasting Tool** *(Dicelytics)* | Physics-assisted ML for reservoir simulation — published research | LSTM · Random Forest · Python |
-| 📚 **[Petroleum Data Analytics & ML](https://github.com/jaiyesh/Petroleum-Data-Analytics-and-Machine-Learning)** | Open courseware — YouTube notes + guest lecture material | Python · ML |
+| 🤖 **[DrillGPT](https://github.com/jaiyesh/DrillGPT)** | LangGraph agent for drilling optimization - ROP prediction, bit failure, automated Word report generation | LangGraph · scikit-learn · OpenAI |
+| 🗂️ **Jira Copilot** | Agentic standup bot - syncs with Jira, collects team updates, auto-updates tickets | FastAPI · ChromaDB · RAG · Nginx |
+| 🛢️ **Production Forecasting Tool** *(Dicelytics)* | Physics-assisted ML for reservoir simulation - published research | LSTM · Random Forest · Python |
+| 📚 **[Petroleum Data Analytics & ML](https://github.com/jaiyesh/Petroleum-Data-Analytics-and-Machine-Learning)** | Open courseware - YouTube notes + guest lecture material | Python · ML |
 
 ---
 
 ### 📜 Research & Patents
 
 **Published Papers**
-- 📄 [Data-driven hydrocarbon production forecasting using ML](https://doi.org/10.1016/j.petrol.2022.110757) — *Journal of Petroleum Science and Engineering*
-- 📄 [GV Black Hierarchical Multiclass Classification · Panoramic Radiographic Synthetic Data](https://ieeexplore.ieee.org/document/10134923) — *IEEE*
-- 📄 [Beyond Traditional Vibration Classification](https://adasci.org/lattice-volume-3-issue-2/beyond-traditional-vibration-classification) — *ADA Science*
+- 📄 [Data-driven hydrocarbon production forecasting using ML](https://doi.org/10.1016/j.petrol.2022.110757) - *Journal of Petroleum Science and Engineering*
+- 📄 [GV Black Hierarchical Multiclass Classification · Panoramic Radiographic Synthetic Data](https://ieeexplore.ieee.org/document/10134923) - *IEEE*
+- 📄 [Beyond Traditional Vibration Classification](https://adasci.org/lattice-volume-3-issue-2/beyond-traditional-vibration-classification) - *ADA Science*
 - 📄 Comparative study of GANs for sensor data generation & remaining useful life classification
 
 **Patents**
@@ -176,12 +176,12 @@ I didn't start as an AI engineer. I earned it, one production system at a time.
 
 | Year | Achievement |
 |------|-------------|
-| 2024 | 🥇 Top Winner — XED'24 Innovation Challenge, Siemens |
-| 2024 | 🏅 Newcomer Inventor of the Year — Siemens |
-| 2023 | 🌟 Top 5 AI Community Contributors, India — Analytics Vidhya |
-| 2021 | 🎤 Co-Founder — Petroleum from Scratch (e-learning) |
-| 2021 | 🎙️ Speaker — Analytics Vidhya, AI Planet, Universities worldwide |
-| 2019 | 📐 GATE (PE) All India Rank 64 — >99th percentile |
+| 2024 | 🥇 Top Winner - XED'24 Innovation Challenge, Siemens |
+| 2024 | 🏅 Newcomer Inventor of the Year - Siemens |
+| 2023 | 🌟 Top 5 AI Community Contributors, India - Analytics Vidhya |
+| 2021 | 🎤 Co-Founder - Petroleum from Scratch (e-learning) |
+| 2021 | 🎙️ Speaker - Analytics Vidhya, AI Planet, Universities worldwide |
+| 2019 | 📐 GATE (PE) All India Rank 64 - >99th percentile |
 
 ---
 
@@ -189,11 +189,11 @@ I didn't start as an AI engineer. I earned it, one production system at a time.
 
 Built the habit early. Still doing it.
 
-- **YouTube** — [Petroleum from Scratch](https://youtube.com/c/petroleumfromscratch): petroleum data analytics, Python, ML from first principles
-- **Great Learning** — sessions on anomaly detection, decision trees, NLP, time series, model evaluation
-- **Guest Lectures** — universities and webinars across India and globally
-- **Analytics Vidhya / AI Planet** — community sessions on practical GenAI and ML
-- **At Siemens** — mentored junior devs from Jupyter notebooks to production ML services
+- **YouTube** - [Petroleum from Scratch](https://youtube.com/c/petroleumfromscratch): petroleum data analytics, Python, ML from first principles
+- **Great Learning** - sessions on anomaly detection, decision trees, NLP, time series, model evaluation
+- **Guest Lectures** - universities and webinars across India and globally
+- **Analytics Vidhya / AI Planet** - community sessions on practical GenAI and ML
+- **At Siemens** - mentored junior devs from Jupyter notebooks to production ML services
 
 ---
 
@@ -239,7 +239,7 @@ Built the habit early. Still doing it.
 
 ### 📡 Building in Public
 
-I post what I'm building, what broke, and what I actually learned. No fluff — real process, real code.
+I post what I'm building, what broke, and what I actually learned. No fluff - real process, real code.
 
 **Follow the build → [@JaiyeshChahar](https://x.com/JaiyeshChahar)**
 
