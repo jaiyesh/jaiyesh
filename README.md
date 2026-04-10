@@ -218,12 +218,20 @@ Built the habit early. Still doing it.
 </div>
 
 <div align="center">
+<img src="https://ghchart.rshah.org/00D9FF/jaiyesh" alt="Jaiyesh's GitHub Contribution Chart" />
+</div>
 
+<div align="center">
+
+<!-- COMMIT_STATS_START -->
 | Period | Commits |
 |--------|---------|
-| 🗓️ Last Week | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.deno.dev%2Fjaiyesh.json%3Ffrom%3D2026-03-28%26to%3D2026-04-04&query=%24.total&label=commits&color=00D9FF&style=flat-square&logo=github) |
-| 📅 Last Month | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.deno.dev%2Fjaiyesh.json%3Ffrom%3D2026-03-01%26to%3D2026-04-04&query=%24.total&label=commits&color=7C3AED&style=flat-square&logo=github) |
-| 📆 Last Year | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.deno.dev%2Fjaiyesh.json%3Ffrom%3D2025-04-04%26to%3D2026-04-04&query=%24.total&label=commits&color=00FF88&style=flat-square&logo=github) |
+| 🗓️ Last 7 days | **—** |
+| 📅 Last 30 days | **—** |
+| 📆 Last 365 days | **—** |
+
+<sub>Auto-updated every Sunday via GitHub Actions</sub>
+<!-- COMMIT_STATS_END -->
 
 </div>
 
