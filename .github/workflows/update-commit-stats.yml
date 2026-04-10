@@ -2,8 +2,8 @@ name: Update Commit Stats
 
 on:
   schedule:
-    - cron: '0 0 * * 0'   # every Sunday midnight UTC
-  workflow_dispatch:        # allow manual trigger
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
 
 jobs:
   update-stats:
@@ -21,7 +21,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           USERNAME="jaiyesh"
-
           TODAY=$(date -u +%Y-%m-%d)
           WEEK_AGO=$(date -u -d '7 days ago' +%Y-%m-%d)
           MONTH_AGO=$(date -u -d '30 days ago' +%Y-%m-%d)
@@ -40,72 +39,28 @@ jobs:
               }' \
               -f login="$USERNAME" \
               -f from="${since}T00:00:00Z" \
-              --jq '
-                (.data.user.contributionsCollection.totalCommitContributions
-                 + .data.user.contributionsCollection.restrictedContributionsCount)
-                | tostring'
+              --jq '(.data.user.contributionsCollection.totalCommitContributions + .data.user.contributionsCollection.restrictedContributionsCount) | tostring'
           }
 
-          WEEK=$(count_commits "$WEEK_AGO")
-          MONTH=$(count_commits "$MONTH_AGO")
-          YEAR=$(count_commits "$YEAR_AGO")
-
-          echo "week=$WEEK"   >> "$GITHUB_OUTPUT"
-          echo "month=$MONTH" >> "$GITHUB_OUTPUT"
-          echo "year=$YEAR"   >> "$GITHUB_OUTPUT"
-          echo "updated=$TODAY" >> "$GITHUB_OUTPUT"
+          echo "week=$(count_commits $WEEK_AGO)"   >> "$GITHUB_OUTPUT"
+          echo "month=$(count_commits $MONTH_AGO)" >> "$GITHUB_OUTPUT"
+          echo "year=$(count_commits $YEAR_AGO)"   >> "$GITHUB_OUTPUT"
+          echo "updated=$TODAY"                    >> "$GITHUB_OUTPUT"
 
       - name: Update README
-        run: |
-          WEEK="${{ steps.counts.outputs.week }}"
-          MONTH="${{ steps.counts.outputs.month }}"
-          YEAR="${{ steps.counts.outputs.year }}"
-          UPDATED="${{ steps.counts.outputs.updated }}"
-
-          # Replace the stats block between the sentinel comments
-          python3 - <<'PYEOF'
-          import re, os
-
-          week  = os.environ["WEEK"]
-          month = os.environ["MONTH"]
-          year  = os.environ["YEAR"]
-          updated = os.environ["UPDATED"]
-
-          block = f"""<!-- COMMIT_STATS_START -->
-| Period | Commits |
-|--------|---------|
-| 🗓️ Last 7 days | **{week}** |
-| 📅 Last 30 days | **{month}** |
-| 📆 Last 365 days | **{year}** |
-
-<sub>Auto-updated every Sunday · {updated}</sub>
-<!-- COMMIT_STATS_END -->"""
-
-          with open("README.md", "r") as f:
-              content = f.read()
-
-          content = re.sub(
-              r"<!-- COMMIT_STATS_START -->.*?<!-- COMMIT_STATS_END -->",
-              block,
-              content,
-              flags=re.DOTALL
-          )
-
-          with open("README.md", "w") as f:
-              f.write(content)
-          PYEOF
         env:
           WEEK:    ${{ steps.counts.outputs.week }}
           MONTH:   ${{ steps.counts.outputs.month }}
           YEAR:    ${{ steps.counts.outputs.year }}
           UPDATED: ${{ steps.counts.outputs.updated }}
+        run: python3 scripts/update_stats.py
 
-      - name: Commit & push if changed
+      - name: Commit and push if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet README.md || {
-            git add README.md
-            git commit -m "chore: update commit stats [skip ci]"
+          git diff --quiet README.md || (
+            git add README.md &&
+            git commit -m "chore: update commit stats [skip ci]" &&
             git push
-          }
+          )
