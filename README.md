@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00D9FF,100:7C3AED&height=220&section=header&text=Jaiyesh%20Chahar&fontSize=56&fontColor=FFFFFF&fontAlignY=36&desc=ML%20Lead%20%E2%80%94%20I%20Build%20Real%20AI%20Systems%2C%20End%20to%20End&descSize=17&descAlignY=56&descColor=00D9FF&animation=fadeIn" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1100&color=00D9FF&center=true&vCenter=true&width=860&lines=ML+Lead+%40+Zensar+%7C+Previously+Siemens+%7C+IIT+ISM+Dhanbad;4%2B+Years+%E2%80%94+Data+Science+%E2%86%92+CV+%E2%86%92+MLOps+%E2%86%92+GenAI+%E2%86%92+Agentic+AI;Automotive+%7C+Energy+%7C+Smart+City+%7C+Healthcare+%7C+Manufacturing;Research+Published+%7C+2+Patents+%7C+Top+5+AI+Contributor+India+2023;Building+InterviewValley.com+%E2%80%94+Solo%2C+Full+Stack%2C+Shipped" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1100&color=00D9FF&center=true&vCenter=true&width=860&lines=ML+Lead+%40+Zensar+%7C+Previously+Siemens+%7C+IIT+ISM+Dhanbad;5%2B+Years+%E2%80%94+Data+Science+%E2%86%92+CV+%E2%86%92+MLOps+%E2%86%92+GenAI+%E2%86%92+Agentic+AI;Automotive+%7C+Energy+%7C+Smart+City+%7C+Healthcare+%7C+Manufacturing;Research+Published+%7C+2+Patents+%7C+Top+5+AI+Contributor+India+2023;Building+InterviewValley.com+%E2%80%94+Solo%2C+Full+Stack%2C+Shipped" alt="Typing SVG" />
 
 <br/>
 
