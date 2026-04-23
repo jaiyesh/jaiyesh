@@ -17,7 +17,7 @@
 
 ---
 
-### 🧠 4+ Years of Building AI/ML - The Real Arc
+### 🧠 5+ Years of Building AI/ML - The Real Arc
 
 I didn't start as an AI engineer. I earned it, one production system at a time.
 
