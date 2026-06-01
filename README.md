@@ -201,14 +201,16 @@ Built the habit early. Still doing it.
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=jaiyesh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=FFFFFF&include_all_commits=true&count_private=true" />
+<!-- Self-host github-readme-stats on your own Vercel → replace YOUR_VERCEL_URL below -->
+<img height="175" src="https://YOUR_VERCEL_URL/api?username=jaiyesh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=FFFFFF&include_all_commits=true&count_private=true" />
 &nbsp;
-<img height="175" src="https://streak-stats.demolab.com?user=jaiyesh&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=7C3AED&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=888888" />
+<img height="175" src="https://nirzak-streak-stats.vercel.app?user=jaiyesh&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=7C3AED&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=888888" />
 
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaiyesh&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&cache_seconds=1800" />
+<!-- Self-host github-readme-stats on your own Vercel → replace YOUR_VERCEL_URL below -->
+<img src="https://YOUR_VERCEL_URL/api/top-langs/?username=jaiyesh&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&cache_seconds=1800" />
 </div>
 
 **📅 Commit Activity**
