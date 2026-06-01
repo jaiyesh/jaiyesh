@@ -201,7 +201,7 @@ Built the habit early. Still doing it.
 
 <div align="center">
 
-<img height="175" src="https://nirzak-streak-stats.vercel.app?user=jaiyesh&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=7C3AED&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=888888" />
+<img height="175" src="https://streak-stats.demolab.com?user=jaiyesh&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=7C3AED&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=888888" />
 
 </div>
 
