@@ -221,11 +221,11 @@ Built the habit early. Still doing it.
 <!-- COMMIT_STATS_START -->
 | Period | Commits |
 |--------|---------|
-| Last 7 days | **86** |
-| Last 30 days | **142** |
-| Last 365 days | **544** |
+| Last 7 days | **37** |
+| Last 30 days | **178** |
+| Last 365 days | **572** |
 
-<sub>Auto-updated every Sunday · 2026-05-31</sub>
+<sub>Auto-updated every Sunday · 2026-06-07</sub>
 <!-- COMMIT_STATS_END -->
 
 </div>
