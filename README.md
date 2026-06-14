@@ -236,7 +236,7 @@ Built the habit early. Still doing it.
 
 I post what I'm building, what broke, and what I actually learned. No fluff - real process, real code.
 
-**Follow the build → [@JaiyeshChahar](https://x.com/JaiyeshChahar)**
+**Follow the build → [@JaiyeshChahar](https://x.com/JaiyeshChahar)**.
 
 ---
 
